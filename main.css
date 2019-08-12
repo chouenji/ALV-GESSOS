@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(104, 100, 100);
+}
+
+/* HEADER */
+
+.navbar-brand {
+    font-size: 2em;
+    font-family: 'Concert One', cursive;
+}
+
+.navbar-brand:hover {
+    color: lightgray !important;
+}
+
+.nav-link:hover {
+    color: rgb(245, 235, 235) !important;
+}
+
+.navbar-dark {
+    background-color: rgba(184, 94, 94, 0.616) !important;
+}
+
+.btn{
+    border-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgba(184, 94, 94, 0.616);
+    border-color: black;
+}
+
+.mr-sm-2{
+    width: 300px !important;
+    position: relative;
+    bottom: 4px;
+}
+
+#cellphone{
+    margin-right: 130px;
+}
+
+/* SECTION MAIN */
+
+.container {
+    margin-top: 30px;
+    position: relative;
+    top: 70px;
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    transition: 550ms ease-out;
+}
+
+.carousel-item img {
+    position: absolute;
+    min-height: 500px;
+}
+
+.carousel-caption{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+ 
+}
+
+.carousel-caption p{
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+
+/* SECTION NEWSLETTER */
+
+.newsletter{
+    color: white;
+    background-color: rgba(184, 94, 94, 0.616); 
+    min-height: 120px;
+}
+
+.form-control{
+    margin-top: 10px;
+}
+.content h2{
+    text-align: center;
+}
+
+.newsletter_btn{
+    margin-left: 5px;
+    margin-top: 10px
+}
+
+.newsletter_btn:hover{
+    color: white;
+}
+
+/* SECTION INFORMATION */
+
+.gesso_information{
+    background-color: rgba(184, 94, 94, 0.616);
+    color: white;
+}
+
+.gesso_information h2{
+    text-align: center;
+}
+
+.gesso_information p{
+    text-indent: 2em;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(184, 94, 94, 0.616); 
+}
+
+.social_icons{
+    text-align: center;
+    font-size: 30px;
+}
+
+.fab, .far{
+    margin: 0 150px;
+    color: rgb(97, 193, 224);
+    position: relative;
+    top: 9px;
+}
+
+.fab:hover, .far:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 1198px){
+    .social_icons{
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+    }
+
+    .fab, .far{
+        margin-top: 20px;
+    }
+ 
+}
+
+
